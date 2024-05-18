@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ais-Hits-list {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 1rem;
+  list-style-type: none;
+  padding-left: 0;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+
+@media (max-width: 639px) {
+  .ais-Hits-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .ais-Hits-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sidebar-open .ais-Hits-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 786px) and (max-width: 1024px) {
+  .ais-Hits-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sidebar-open .ais-Hits-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .ais-Hits-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .sidebar-open .ais-Hits-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.abel {
+  font-family: "--font-abel";
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+.ais-SearchBox-input {
+  border: 1px solid #dadada;
+  font-size: 15px;
+  border-radius: 1rem;
+  padding: 1.5rem 6rem;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .ais-SearchBox-input {
+    padding: 1rem 6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .ais-SearchBox-input {
+    font-size: 18px;
+    padding: 1rem 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ais-SearchBox-input {
+    padding: 1.5rem 6rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .ais-SearchBox-input {
+    padding: 1.5rem 8rem;
+  }
+}
+
+.ais-SearchBox-submit,
+.ais-SearchBox-reset {
+  display: none;
+}
+.custom-searchbox .ais-SearchBox-loadingIcon {
+  display: none;
+}
+.custom-searchbox::placeholder {
+  font-size: 12px; 
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Abel", sans-serif;
+}
+

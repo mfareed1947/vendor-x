@@ -1,0 +1,254 @@
+[
+    {
+      "name": "company_name",
+      "label": "Company name*",
+      "type": "text",
+      "required": true,
+      "alias": "Company name"
+    },
+    {
+      "name": "company_name",
+      "label": "Company name*",
+      "type": "text",
+      "required": true,
+      "alias": "Company name"
+    },
+    {
+      "name": "company_name",
+      "label": "Company name*",
+      "type": "text",
+      "required": true,
+      "alias": "Company name"
+    },
+    {
+      "name": "tagline",
+      "label": "One sentence tagline/description (Max 100 characters)*",
+      "type": "textarea",
+      "maxLength": 100,
+      "required": true,
+      "alias": "tagline/description"
+    },
+    {
+      "name": "company_logo",
+      "label": "Upload Company logo*",
+      "type": "file",
+      "required": true,
+      "alias": "Company logo"
+    },
+    {
+      "name": "company_description",
+      "label": "Please briefly describe your company/solution(s) at a high level (maximum 100 words)*",
+      "type": "textarea",
+      "maxLength": 100,
+      "required": true,
+      "alias": "Company description"
+    },
+  
+    {
+      "name": "headquarters_country",
+      "label": "Company headquarters (country)*",
+      "type": "react-select",
+      "required": true,
+      "alias": "Company headquarters"
+    },
+    {
+      "name": "founded_year",
+      "label": "Year company was founded*",
+      "type": "number",
+      "required": true,
+      "alias": "Founded year"
+    },
+    {
+      "name": "company_size",
+      "label": "Company size*",
+      "type": "select",
+      "options": [
+        { "label": "0-10 employees", "value": "0-10_employees" },
+        { "label": "11-50 employees", "value": "11-50_employees" },
+        { "label": "51-250 employees", "value": "51-250_employees" },
+        { "label": "251-1,000 employees", "value": "251-1,000_employees" },
+        { "label": "1,001-10,000 employees", "value": "1,001-10,000_employees" },
+        { "label": "10,000+ employees", "value": "10,000+_employees" }
+      ],
+      "required": true,
+      "alias": "Company size"
+    },
+    {
+      "name": "services",
+      "label": "List up to 5 keywords that describe your services*",
+      "type": "react-select",
+      "required": true,
+      "alias": "Services"
+    },
+    {
+      "name": "primary_industries",
+      "label": "List up to 5 primary industries served*",
+      "type": "react-select",
+      "required": true,
+      "alias": "Primary industries served"
+    },
+    {
+      "name": "primary_geographies",
+      "label": "List up to 5 primary geographies served*",
+      "type": "react-select",
+      "required": true,
+      "alias": "Geographies served"
+    },
+    {
+      "name": "target_customer_size",
+      "label": "Typical or target customer size (number of employees)*",
+      "type": "react-select-dropdown",
+      "options": [
+        { "label": "SMB (<100)", "value": "SMB (<100)" },
+        { "label": "Growth (101-500)", "value": "Growth (101-500)" },
+        { "label": "Mid-Size (501-2,000)", "value": "Mid-Size (501-2,000)" },
+        {
+          "label": "Corporate (2,001-10,000)",
+          "value": "Corporate (2,001-10,000)"
+        },
+        { "label": "Enterprise (10,000+)", "value": "Enterprise (10,000+)" }
+      ],
+      "required": false,
+      "alias": "Target customer size"
+    },
+    {
+      "name": "core_features_keywords",
+      "label": "List up to 10 keywords that capture the core features of your solution*",
+      "type": "react-select",
+      "required": true,
+      "alias": "Core features keywords"
+    },
+    {
+      "name": "solution_category_keywords",
+      "label": "Please share keywords that describe your company and/or solution ‘category’",
+      "type": "react-select",
+      "required": false
+    },
+    {
+      "name": "client_departments",
+      "label": "What are the common departments and titles of the clients you typically work with?",
+      "type": "react-select",
+      "required": false
+    },
+    {
+      "name": "key_differentiators",
+      "label": "Please list your key differentiators / unique selling points",
+      "type": "react-select",
+      "required": false
+    },
+    {
+      "name": "customer_requirements",
+      "label": "Please share any customer requirements (Optional)",
+      "type": "react-select",
+      "required": false
+    },
+    {
+      "name": "reference_clients",
+      "label": "Please share up to 5 reference clients (Optional)",
+      "type": "react-select",
+      "required": false
+    },
+    {
+      "name": "partnership_openness",
+      "label": "Are you open to POC / pilot partnerships / co-development partnerships",
+      "type": "select",
+      "options": [
+        { "label": "Yes", "value": "Yes" },
+        { "label": "No", "value": "No" },
+        { "label": "Maybe", "value": "Maybe" },
+        { "label": "N/A", "value": "N/A" }
+      ],
+      "required": false
+    },
+    {
+      "name": "funding_round",
+      "label": "What best describes your latest round of funding",
+      "type": "select",
+      "options": [
+        { "label": "Pre-seed", "value": "Pre-seed" },
+        { "label": "Seed", "value": "Seed" },
+        { "label": "Series A", "value": "Series A" },
+        { "label": "Post Series A", "value": "Post Series A" },
+        { "label": "Other", "value": "Other" }
+      ],
+      "required": false
+    },
+    {
+      "name": "sales_cycle",
+      "label": "What is your typical sales cycle?",
+      "type": "select",
+      "options": [
+        { "label": "Monthly", "value": "Monthly" },
+        { "label": "Quarterly", "value": "Quarterly" },
+        { "label": "Annually", "value": "Annually" },
+        { "label": "Other", "value": "Other" }
+      ],
+      "required": true,
+      "alias": "Typical sales cycle"
+    },
+    {
+      "name": "additional_keywords",
+      "label": "Please share any other keywords, phrases, etc. that you believe your prospective clients would use in their search to find you",
+      "type": "textarea",
+      "required": false,
+      "maxLength": 500
+    },
+    {
+      "name": "form_discovery",
+      "label": "How did you receive this form?",
+      "required": false,
+      "type": "select",
+      "options": [
+        {
+          "label": "I was referred by someone",
+          "value": "referred",
+          "additionalFields": [
+            {
+              "name": "contact_name",
+              "label": "Contact Name",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "contact_email",
+              "label": "Contact Email",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "contact_company",
+              "label": "Contact Company",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "contact_title",
+              "label": "Contact Title",
+              "type": "text",
+              "required": false
+            }
+          ]
+        },
+        {
+          "label": "I was invited by VendorX",
+          "value": "invited_by_vendor"
+        }
+      ]
+    },
+  
+    {
+      "name": "primary_contact_name",
+      "label": "Primary contact name*",
+      "type": "text",
+      "required": true,
+      "alias": "Primary contact name"
+    },
+    {
+      "name": "primary_contact_email",
+      "label": "Primary contact email*",
+      "type": "email",
+      "required": true,
+      "alias": "Primary contact email"
+    }
+  ]
+  

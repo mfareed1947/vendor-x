@@ -1,0 +1,42 @@
+[
+  {
+    "imageUrl": "path/to/image1.png",
+    "companyName": "Innovative Solutions Ltd.",
+    "description": "Pioneering the future of sustainable energy solutions, Innovative Solutions Ltd. is dedicated to reducing global carbon footprints.",
+    "country": "USA",
+    "tags": ["Renewable Energy", "Sustainability", "Tech", "Innovation"]
+  },
+  {
+    "imageUrl": "path/to/image2.png",
+    "companyName": "Global Health Inc.",
+    "description": "Global Health Inc. is at the forefront of medical technology, creating accessible health solutions for communities worldwide.",
+    "country": "Germany",
+    "tags": ["Healthcare", "MedTech", "Global Health", "Accessibility"]
+  },
+  {
+    "imageUrl": "path/to/image3.png",
+    "companyName": "EcoWear Clothing",
+    "description": "EcoWear Clothing combines fashion with ethics, offering stylish, eco-friendly apparel made from sustainable materials.",
+    "country": "France",
+    "tags": ["Fashion", "Sustainability", "Eco-friendly", "Apparel"]
+  },
+  {
+    "imageUrl": "path/to/image4.png",
+    "companyName": "Tech Innovate",
+    "description": "Tech Innovate develops cutting-edge software solutions, enhancing business efficiency and digital transformation.",
+    "country": "Japan",
+    "tags": ["Software", "Innovation", "Digital Transformation", "Efficiency"]
+  },
+  {
+    "imageUrl": "path/to/image5.png",
+    "companyName": "GreenTech Solutions",
+    "description": "GreenTech Solutions leads the way in green technology, specializing in renewable energy systems and sustainable living.",
+    "country": "Australia",
+    "tags": [
+      "Green Technology",
+      "Renewable Energy",
+      "Sustainability",
+      "Eco-friendly"
+    ]
+  }
+]
